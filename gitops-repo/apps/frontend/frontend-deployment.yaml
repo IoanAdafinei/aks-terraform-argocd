@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend-container
-        image: ioanro/frontend-test:latest   # <-- make sure this is rebuilt with Nginx + nginx.conf
+        image: ioanro/frontend-test:latest   
         ports:
           - containerPort: 3000
-        # No need for BACKEND_URL env anymore
 
